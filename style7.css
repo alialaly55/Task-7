@@ -1,0 +1,18 @@
+div {
+    background-color:rgb(217, 219, 219);
+    margin: 15px;
+    padding: 30px;
+    position: relative;
+}
+div::before{
+    content: " ";
+    border: 5px solid red;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+}
+span{
+    color: red;
+    font-size: 20px;
+}
